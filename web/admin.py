@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Car, TestDrive, Order
+from NoSQL.models import Car, TestDrive, Order
 
 # Register your models here.
 admin.site.register(Car)

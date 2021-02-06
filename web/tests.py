@@ -8,7 +8,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-from .models import Car, TestDrive, Order
+from NoSQL.models import Car, TestDrive, Order
 
 
 # Create your tests here.

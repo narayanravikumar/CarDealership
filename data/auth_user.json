@@ -1,0 +1,41 @@
+[
+    {
+        "date_joined": "2021-01-03 14:02:23.712919",
+        "email": "narayan.ravikumar08@gmail.com",
+        "first_name": "Narayan",
+        "id": 1,
+        "is_active": 1,
+        "is_staff": 0,
+        "is_superuser": 1,
+        "last_login": "2021-01-03 14:52:22.899700",
+        "last_name": "Ravikumar",
+        "password": "pbkdf2_sha256$150000$jlLrPsEsUkG9$jGU45GKLJ7W33Qvrbyab1lJxodLVov8Uf8rt+A16boY=",
+        "username": "narayan"
+    },
+    {
+        "date_joined": "2021-01-03 14:38:38.001098",
+        "email": "abc@gmail.com",
+        "first_name": "",
+        "id": 2,
+        "is_active": 1,
+        "is_staff": 1,
+        "is_superuser": 1,
+        "last_login": "2021-02-06 14:04:47.148924",
+        "last_name": "",
+        "password": "pbkdf2_sha256$150000$nkTuqhTKRBJy$ilNfn7WrIWiTg1lIeUmgnKlQbXI5x37z3PT5jE933Uo=",
+        "username": "admin"
+    },
+    {
+        "date_joined": "2021-01-03 16:45:47",
+        "email": "mrinalini@gmail.com",
+        "first_name": "Mrinalini",
+        "id": 4,
+        "is_active": 1,
+        "is_staff": 1,
+        "is_superuser": 0,
+        "last_login": "2021-01-03 16:47:21.042729",
+        "last_name": "Ravikumar",
+        "password": "pbkdf2_sha256$150000$zgh1Ic6LBZH3$xnQoTI/iOH3qmZSsiNcdieGjnunVs2Sk+3EId6bffWs=",
+        "username": "minnu"
+    }
+]

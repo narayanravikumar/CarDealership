@@ -1,0 +1,142 @@
+[
+    {
+        "action_flag": 1,
+        "action_time": "2021-01-03 14:51:46.825114",
+        "change_message": "[{\"added\": {}}]",
+        "content_type_id": 7,
+        "id": 1,
+        "object_id": "1",
+        "object_repr": "asd asd",
+        "user_id": 2
+    },
+    {
+        "action_flag": 3,
+        "action_time": "2021-01-03 14:55:16.000164",
+        "change_message": "",
+        "content_type_id": 7,
+        "id": 2,
+        "object_id": "1",
+        "object_repr": "asd asd",
+        "user_id": 2
+    },
+    {
+        "action_flag": 1,
+        "action_time": "2021-01-03 14:58:15.624362",
+        "change_message": "[{\"added\": {}}]",
+        "content_type_id": 4,
+        "id": 3,
+        "object_id": "3",
+        "object_repr": "admin2",
+        "user_id": 2
+    },
+    {
+        "action_flag": 3,
+        "action_time": "2021-01-03 14:59:22.577220",
+        "change_message": "",
+        "content_type_id": 4,
+        "id": 4,
+        "object_id": "3",
+        "object_repr": "admin2",
+        "user_id": 2
+    },
+    {
+        "action_flag": 1,
+        "action_time": "2021-01-03 16:26:22.297027",
+        "change_message": "[{\"added\": {}}]",
+        "content_type_id": 7,
+        "id": 5,
+        "object_id": "2",
+        "object_repr": "Tata Nexon",
+        "user_id": 2
+    },
+    {
+        "action_flag": 3,
+        "action_time": "2021-01-03 16:27:30.537571",
+        "change_message": "",
+        "content_type_id": 9,
+        "id": 6,
+        "object_id": "1",
+        "object_repr": "  - Nexon",
+        "user_id": 2
+    },
+    {
+        "action_flag": 1,
+        "action_time": "2021-01-03 16:31:40.672462",
+        "change_message": "[{\"added\": {}}]",
+        "content_type_id": 7,
+        "id": 7,
+        "object_id": "3",
+        "object_repr": "Volkswagen Polo",
+        "user_id": 2
+    },
+    {
+        "action_flag": 1,
+        "action_time": "2021-01-03 16:37:13.508798",
+        "change_message": "[{\"added\": {}}]",
+        "content_type_id": 7,
+        "id": 8,
+        "object_id": "4",
+        "object_repr": "Maruthi Brezza",
+        "user_id": 2
+    },
+    {
+        "action_flag": 2,
+        "action_time": "2021-01-03 16:39:44.913926",
+        "change_message": "[{\"changed\": {\"fields\": [\"car_make\"]}}]",
+        "content_type_id": 7,
+        "id": 9,
+        "object_id": "3",
+        "object_repr": "Volkswagen Polo",
+        "user_id": 2
+    },
+    {
+        "action_flag": 2,
+        "action_time": "2021-01-03 16:40:08.271897",
+        "change_message": "[{\"changed\": {\"fields\": [\"car_make\"]}}]",
+        "content_type_id": 7,
+        "id": 10,
+        "object_id": "3",
+        "object_repr": "Volkswagen Polo",
+        "user_id": 2
+    },
+    {
+        "action_flag": 2,
+        "action_time": "2021-01-03 16:40:17.615510",
+        "change_message": "[{\"changed\": {\"fields\": [\"car_make\"]}}]",
+        "content_type_id": 7,
+        "id": 11,
+        "object_id": "2",
+        "object_repr": "Tata Nexon",
+        "user_id": 2
+    },
+    {
+        "action_flag": 1,
+        "action_time": "2021-01-03 16:44:53.564216",
+        "change_message": "[{\"added\": {}}]",
+        "content_type_id": 7,
+        "id": 12,
+        "object_id": "5",
+        "object_repr": "Toyota Etios Liva",
+        "user_id": 2
+    },
+    {
+        "action_flag": 1,
+        "action_time": "2021-01-03 16:45:47.366167",
+        "change_message": "[{\"added\": {}}]",
+        "content_type_id": 4,
+        "id": 13,
+        "object_id": "4",
+        "object_repr": "Minnu",
+        "user_id": 2
+    },
+    {
+        "action_flag": 2,
+        "action_time": "2021-01-03 16:46:42.368794",
+        "change_message": "[{\"changed\": {\"fields\": [\"username\", \"first_name\", \"last_name\", \"email\", \"is_staff\"]}}]",
+        "content_type_id": 4,
+        "id": 14,
+        "object_id": "4",
+        "object_repr": "minnu",
+        "user_id": 2
+    }
+]

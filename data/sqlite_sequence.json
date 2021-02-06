@@ -1,0 +1,38 @@
+[
+    {
+        "name": "django_migrations",
+        "seq": 18
+    },
+    {
+        "name": "django_admin_log",
+        "seq": 14
+    },
+    {
+        "name": "django_content_type",
+        "seq": 9
+    },
+    {
+        "name": "auth_permission",
+        "seq": 36
+    },
+    {
+        "name": "auth_user",
+        "seq": 4
+    },
+    {
+        "name": "auth_group",
+        "seq": 0
+    },
+    {
+        "name": "web_car",
+        "seq": 5
+    },
+    {
+        "name": "web_order",
+        "seq": 3
+    },
+    {
+        "name": "web_testdrive",
+        "seq": 2
+    }
+]

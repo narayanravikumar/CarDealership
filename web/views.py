@@ -7,7 +7,7 @@ from django.db.models import Q
 from datetime import datetime
 
 from .forms import UserForm, TestDriveForm, CompareForm
-from .models import Car, TestDrive, Order
+from NoSQL.models import Car, TestDrive, Order
 
 
 # Create your views here.

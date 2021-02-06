@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'web',
     'bootstrap4',
+    'NoSQL'
 ]
 
 MIDDLEWARE = [
@@ -74,11 +75,21 @@ WSGI_APPLICATION = 'car_dealership.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
+# Define the database manager to setup the various projects
+DATABASE_ROUTERS = ['NoSQL.carinforouter.CarInfoRouter']
+# DATABASE_APPS_MAPPING = {'NoSQL': 'carinfo'}
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    },
+    'carinfo': {
+            'ENGINE': 'djongo',
+            'NAME': 'cardealership',
+            'HOST': 'mongodb://user:password@localhost:27017/cardealership',
+            'USER': 'user',
+            'PASSWORD': 'password',
     }
 }
 

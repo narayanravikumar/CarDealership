@@ -19,6 +19,10 @@ class Car(models.Model):
     engine_displacement = models.IntegerField(null=True)
     added_by = models.ForeignKey(User, on_delete=None, null=True)
     description = models.TextField()
+    temp = models.TextField()
+
+    class Meta:
+        app_label = 'NoSQL'
 
     def __str__(self):
         return self.brand + " " + self.name
@@ -29,6 +33,9 @@ class TestDrive(models.Model):
     car = models.ForeignKey(Car, on_delete=models.CASCADE)
     time = models.DateField()
     approved = models.BooleanField(default=False)
+
+    class Meta:
+        app_label = 'NoSQL'
 
     def __str__(self):
         return self.user.first_name + ' ' + self.user.last_name + ' - ' + self.car.name
@@ -42,6 +49,9 @@ class Order(models.Model):
     address = models.TextField()
     approved_by = models.ForeignKey(User, on_delete=None, null=True, related_name='approved_by_user')
     is_delivered = models.BooleanField(default=False)
+
+    class Meta:
+        app_label = 'NoSQL'
 
     def __str__(self):
         return self.user.first_name + ' ' + self.user.last_name + ' - ' + self.car.name
